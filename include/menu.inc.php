@@ -53,8 +53,8 @@ function zbx_construct_menu(&$main_menu, &$sub_menus, array &$page, $action = nu
 					'sub_pages' => ['tr_events.php']
 				],
                                 [
-                                        'url' => 'fonetportal.php',
-                                        'label' => _('My Portal'),
+                                        'url' => 'myportal.php',
+                                        'label' => _('TBC Portal'),
                                 ],
 				[
 					'url' => 'overview.php',
