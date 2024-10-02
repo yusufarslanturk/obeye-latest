@@ -14,7 +14,7 @@ CWebUser::disableSessionCookie();
 require_once dirname(__FILE__).'/include/config.inc.php';
 require_once dirname(__FILE__).'/include/forms.inc.php';
 
-$page['title'] = _('FONET SKYMON');
+$page['title'] = _('OBSEYE by TBC');
 $page['file'] = 'index.php';
 
 define('ZBX_PAGE_NO_HEADER', 1);
@@ -83,7 +83,7 @@ $messages = clear_messages();
 <div class="container-fluid px-1 px-md-5 px-lg-1 mx-auto">
     <div class="card card0 border-0">
 <div class="header-title">
-		<div class="header-title"> <span <p>SKYMON | RMM | Remote Monitoring and Management System</p> </span> </div>
+		<div class="header-title"> <span <p>OBSEYE | RMM | Remote Monitoring and Management System</p> </span> </div>
 </div>
 	<div class="fonet-logo"> <img src="assets/img/fonetbt_logo.png" class="logo" position="absolute"> </div>
         <div class="row d-flex">
@@ -122,22 +122,21 @@ $messages = clear_messages();
                     </div>
                     <div class="signin-links">
 			<button type="submit" id="enter" name="enter" <input type="submit" value="Sign in">Sign in</button> </div>
-                    <div class="red"> <small class="font-weight-bold">Don't have an account? <a class="red" href="https://www.fonetyazilim.com/iletisim" >Register</a></small> </div>
+                    <div class="red"> <small class="font-weight-bold">Don't have an account? <a class="red" href="https://www.tbcteknoloji.com/iletisim" >Register</a></small> </div>
 		</form>
                 </div>
             </div>
         </div>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         <div class="bg-blue py-4">
-		<div class="row px-3"> <small class="ml-4 ml-sm-5 mb-2">Copyright Fonet Bilgi Teknolojileri A.S. &copy; 2024. All rights reserved.</small>
+		<div class="row px-3"> <small class="ml-4 ml-sm-5 mb-2">Copyright TBC Teknoloji A.S. &copy; 2024. All rights reserved.</small>
 		<div class="footer-social-icons">
 		    <ul class="social-icons" align="right">
-		        <li><a href="https://www.facebook.com/FonetYazilim/" class="social-icon" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-		        <li><a href="https://twitter.com/Fonet_BT" class="social-icon" target="_blank"> <i class="fa fa-twitter"></i></a></li>
-		        <li><a href="https://www.youtube.com/channel/UCOfaZ3gp9mivLt_hpTBiDnA" class="social-icon" target="_blank"> <i class="fa fa-youtube"></i></a></li>
-		        <li><a href="https://www.linkedin.com/company/fonetbt" class="social-icon" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
-		        <li><a href="https://www.instagram.com/fonet_bt/" class="social-icon" target="_blank"> <i class="fa fa-instagram"></i></a></li>
-			<li><a href="mailto:fonet@fonetyazilim.com" class=social_icon"> <i class="fa fa-mail" target="_blank"></i></a></li>
+		        <li><a href="https://www.facebook.com/tbcteknoloji/" class="social-icon" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+		        <li><a href="https://twitter.com/tbcteknoloji" class="social-icon" target="_blank"> <i class="fa fa-twitter"></i></a></li>
+		        <li><a href="https://www.linkedin.com/company/tbcteknoloji" class="social-icon" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
+		        <li><a href="https://www.instagram.com/tbcteknoloji/" class="social-icon" target="_blank"> <i class="fa fa-instagram"></i></a></li>
+			<li><a href="mailto:obseye@tbcteknoloji.com" class=social_icon"> <i class="fa fa-mail" target="_blank"></i></a></li>
 		    </ul>
         	</div>
 	       </div>
