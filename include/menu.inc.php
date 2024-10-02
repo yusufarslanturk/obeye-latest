@@ -117,7 +117,7 @@ function zbx_construct_menu(&$main_menu, &$sub_menus, array &$page, $action = nu
                                         'label' => _('FPM'),
                                 ],
                                 [
-                                        'url' => 'fonetcloud.php',
+                                        'url' => 'tbccloud.php',
                                         'label' => _('Cloud'),
                                 ],
                                 [
@@ -129,8 +129,8 @@ function zbx_construct_menu(&$main_menu, &$sub_menus, array &$page, $action = nu
                                         'label' => _('PDF Report Generator'),
                                 ],
                                 [
-                                        'url' => 'fonetexpgexplain.php',
-                                        'label' => _('Fonet PostgreSQL Explain'),
+                                        'url' => 'tbcexpgexplain.php',
+                                        'label' => _('TBC PostgreSQL Explain'),
                                 ],
 				[
 					'url' => 'chart3.php'
