@@ -83,16 +83,16 @@ function get_item_logtype_style($logtype) {
  */
 function item_type2str($type = null) {
 	$types = [
-		ITEM_TYPE_ZABBIX => _('SKYMON agent'),
-		ITEM_TYPE_ZABBIX_ACTIVE => _('SKYMON agent (active)'),
+		ITEM_TYPE_ZABBIX => _('OBSEYE agent'),
+		ITEM_TYPE_ZABBIX_ACTIVE => _('OBSEYE agent (active)'),
 		ITEM_TYPE_SIMPLE => _('Simple check'),
 		ITEM_TYPE_SNMPV1 => _('SNMPv1 agent'),
 		ITEM_TYPE_SNMPV2C => _('SNMPv2 agent'),
 		ITEM_TYPE_SNMPV3 => _('SNMPv3 agent'),
 		ITEM_TYPE_SNMPTRAP => _('SNMP trap'),
-		ITEM_TYPE_INTERNAL => _('SKYMON internal'),
-		ITEM_TYPE_TRAPPER => _('SKYMON trapper'),
-		ITEM_TYPE_AGGREGATE => _('SKYMON aggregate'),
+		ITEM_TYPE_INTERNAL => _('OBSEYE internal'),
+		ITEM_TYPE_TRAPPER => _('OBSEYE trapper'),
+		ITEM_TYPE_AGGREGATE => _('OBSEYE aggregate'),
 		ITEM_TYPE_EXTERNAL => _('External check'),
 		ITEM_TYPE_DB_MONITOR => _('Database monitor'),
 		ITEM_TYPE_HTTPAGENT => _('HTTP agent'),
