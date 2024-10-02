@@ -27,7 +27,7 @@ header( 'Content-type: text/html; charset=utf-8' );
 <html>
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-	<title>Zabbix Dynamic PDF Report</title>
+	<title>OBSEYE RMM Dynamic PDF Report</title>
 	<meta charset="utf-8" />
 	<link rel="shortcut icon" href="/zabbix/images/general/zabbix.ico" />
 	<link rel="stylesheet" type="text/css" href="css/zabbix.default.css" />
@@ -102,7 +102,7 @@ header( 'Content-type: text/html; charset=utf-8' );
 </head>
 <body class="originalblue">
 <div id="message-global-wrap"><div id="message-global"></div></div>
-<table class="maxwidth page_header" cellspacing="0" cellpadding="5"><tr><td class="page_header_l"><a class="image" href="http://www.zabbix.com/" target="_blank"><div class="zabbix_logo">&nbsp;</div></a></td><td class="maxwidth page_header_r">&nbsp;</td></tr></table>
+<table class="maxwidth page_header" cellspacing="0" cellpadding="5"><tr><td class="page_header_l"><a class="image" href="https://www.tbcteknoloji.com/" target="_blank"><div class="zabbix_logo">&nbsp;</div></a></td><td class="maxwidth page_header_r">&nbsp;</td></t></table>
 <br/><br/>
 <center><h1>Generate PDF Report</h1></center>
 <br/>
