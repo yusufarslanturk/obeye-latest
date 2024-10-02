@@ -109,20 +109,20 @@ function zbx_construct_menu(&$main_menu, &$sub_menus, array &$page, $action = nu
 					'sub_pages' => ['chart5.php']
 				],
                                 [
-                                        'url' => 'fonettaleserp.php',
-                                        'label' => _('Tales'),
+                                        'url' => 'tbcsupport.php',
+                                        'label' => _('TBC Support'),
 				],
                                 [
-                                        'url' => 'fonetfpm.php',
-                                        'label' => _('Fonet FPM'),
+                                        'url' => 'tbcfpm.php',
+                                        'label' => _('FPM'),
                                 ],
                                 [
                                         'url' => 'fonetcloud.php',
-                                        'label' => _('Fonet Cloud'),
+                                        'label' => _('Cloud'),
                                 ],
                                 [
-                                        'url' => 'fonetyazilim.php',
-                                        'label' => _('Fonet Web'),
+                                        'url' => 'tbc.php',
+                                        'label' => _('TBC Web'),
                                 ],
                                 [
                                         'url' => 'skymonpdfgenerator.php',
