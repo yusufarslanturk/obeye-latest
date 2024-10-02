@@ -1,8 +1,8 @@
 <?php
 //////////
 // 
-// (c) Travis Mathis - travisdmathis@gmail.com
-// Zabbix Report Generator v0.4 Beta
+// Thanks travisdmathis@gmail.com
+// Zabbix Report Generator v1.1
 //
 // INCLUDES
 require_once("inc/ZabbixAPI.class.php");
