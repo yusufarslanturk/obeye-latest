@@ -1,7 +1,7 @@
 <?php
 //CONFIGURABLE
 # zabbix server info(user must have API access)
-$z_server       = 'https://foneteye.fonetyazilim.com/';
+$z_server       = 'https://{obseye-web-apache-mysql}/';
 $z_user		= 'test';
 $z_pass         = '9699'TeSt.';
 # Temporary directory for storing pdf data and graphs - must exist
@@ -18,7 +18,7 @@ $timezone	= 'Europe/Istanbul';
 # Logo used in PDF - may be empty
 # TODO: Specify image size!
 $pdf_logo	= './images/zabbix.png';
-$company_name   = 'Zabbix';
+$company_name   = '{COMPANY_NAME}';
 
 //DO NOT CHANGE BELOW THIS LINE
 $z_tmp_cookies 	= "/tmp/";
